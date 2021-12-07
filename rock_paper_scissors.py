@@ -1,4 +1,6 @@
-computer_choice = 'scissors'
+import random
+
+computer_choice = random.choice(['rock', 'paper', 'scissors'])
 
 user_choice = input('Do you want - rock, paper, or scissors?\n')
 
